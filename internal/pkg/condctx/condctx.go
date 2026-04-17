@@ -1,6 +1,3 @@
-// Copyright (c) HashiCorp, Inc.
-// SPDX-License-Identifier: MPL-2.0
-
 // Package condctx provides helpers for working with condition variables
 // along with the standard "context" package and interface.
 package condctx

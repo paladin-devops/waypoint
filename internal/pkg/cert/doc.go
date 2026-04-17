@@ -1,6 +1,3 @@
-// Copyright (c) HashiCorp, Inc.
-// SPDX-License-Identifier: MPL-2.0
-
 // Package cert has helpers for managing certificates in our services.
 //
 // The primary helper is the Cert struct, which manages a single TLS certificate.

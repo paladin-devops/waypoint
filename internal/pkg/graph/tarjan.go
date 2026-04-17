@@ -1,6 +1,3 @@
-// Copyright (c) HashiCorp, Inc.
-// SPDX-License-Identifier: MPL-2.0
-
 package graph
 
 // Cycles returns all the detected cycles. This may not be fully exhaustive

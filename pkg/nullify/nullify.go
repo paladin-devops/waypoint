@@ -1,6 +1,3 @@
-// Copyright (c) HashiCorp, Inc.
-// SPDX-License-Identifier: MPL-2.0
-
 // Package nullify takes any structure as input and nullifies any matching
 // pointer types as registered on the nullifier.
 package nullify

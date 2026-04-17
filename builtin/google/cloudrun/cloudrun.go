@@ -1,6 +1,3 @@
-// Copyright (c) HashiCorp, Inc.
-// SPDX-License-Identifier: MPL-2.0
-
 // Package cloudrun contains components for deploying to Google Cloud Run.
 package cloudrun
 

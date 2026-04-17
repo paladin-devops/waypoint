@@ -1,6 +1,3 @@
-// Copyright (c) HashiCorp, Inc.
-// SPDX-License-Identifier: MPL-2.0
-
 // Package tfc contains components for syncing outputs of states from Terraform Cloud
 package tfc
 

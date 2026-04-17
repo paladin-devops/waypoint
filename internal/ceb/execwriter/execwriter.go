@@ -1,6 +1,3 @@
-// Copyright (c) HashiCorp, Inc.
-// SPDX-License-Identifier: MPL-2.0
-
 // Package execwriter contains helpers for writing "waypoint exec"
 // streams via an io.Writer. Data written to the io.Writer will be
 // automatically sent to the gRPC stream.

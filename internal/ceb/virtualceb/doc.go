@@ -1,6 +1,3 @@
-// Copyright (c) HashiCorp, Inc.
-// SPDX-License-Identifier: MPL-2.0
-
 // Package virtualceb is used to provide "virtual" CEB functionality. A
 // virtual CEB acts like an entrypoint but doesn't represent a real physical
 // instance of a deployment, hence the "virtual" labeling.

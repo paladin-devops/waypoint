@@ -1,6 +1,3 @@
-// Copyright (c) HashiCorp, Inc.
-// SPDX-License-Identifier: MPL-2.0
-
 // Package statetest has a test suite for validating implementations of the
 // serverstate.Interface interface. This must only be imported in "_test.go"
 // files in other packages.

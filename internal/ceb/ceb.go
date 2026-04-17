@@ -1,6 +1,3 @@
-// Copyright (c) HashiCorp, Inc.
-// SPDX-License-Identifier: MPL-2.0
-
 // Package ceb contains the core logic for the custom entrypoint binary ("ceb").
 //
 // The CEB does not work on Windows.

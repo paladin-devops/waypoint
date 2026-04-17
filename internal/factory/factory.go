@@ -1,6 +1,3 @@
-// Copyright (c) HashiCorp, Inc.
-// SPDX-License-Identifier: MPL-2.0
-
 // Package factory contains a "factory" pattern based on argmapper.
 //
 // A Factory can be used to register factory methods to create some predefined

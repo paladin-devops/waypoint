@@ -1,6 +1,3 @@
-// Copyright (c) HashiCorp, Inc.
-// SPDX-License-Identifier: MPL-2.0
-
 package graph
 
 // TransitiveReduction performs a transitive reduction on the graph, effectively

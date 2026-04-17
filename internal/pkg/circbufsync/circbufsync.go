@@ -1,6 +1,3 @@
-// Copyright (c) HashiCorp, Inc.
-// SPDX-License-Identifier: MPL-2.0
-
 // Package circbufsync wraps armon/circbuf to be safe for concurrent
 // read/write operations.
 package circbufsync

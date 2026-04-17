@@ -1,6 +1,3 @@
-// Copyright (c) HashiCorp, Inc.
-// SPDX-License-Identifier: MPL-2.0
-
 // Package testvault contains helpers for working with Vault in a test
 // environment.
 package testvault
