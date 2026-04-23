@@ -11,7 +11,7 @@ import (
 	"github.com/Azure/go-autorest/autorest/azure/auth"
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
 )
 
 var _ component.Deployment = (*Deployment)(nil)

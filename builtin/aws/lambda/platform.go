@@ -23,14 +23,14 @@ import (
 	"github.com/aws/aws-sdk-go/service/lambda"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/waypoint/builtin/aws/ecr"
-	"github.com/hashicorp/waypoint/builtin/aws/utils"
-	wpssh "github.com/hashicorp/waypoint/internal/ssh"
+	"github.com/paladin-devops/waypoint/builtin/aws/ecr"
+	"github.com/paladin-devops/waypoint/builtin/aws/utils"
+	wpssh "github.com/paladin-devops/waypoint/internal/ssh"
 	"github.com/pkg/errors"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	"github.com/hashicorp/waypoint-plugin-sdk/docs"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/docs"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 )
 
 // Platform is the Platform implementation for AWS Lambda

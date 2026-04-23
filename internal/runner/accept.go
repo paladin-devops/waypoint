@@ -16,9 +16,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/tokenutil"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/tokenutil"
 )
 
 var heartbeatDuration = 5 * time.Second

@@ -27,10 +27,10 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/hashicorp/waypoint/internal/clicontext"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/serverconfig"
-	"github.com/hashicorp/waypoint/pkg/tokenutil"
+	"github.com/paladin-devops/waypoint/internal/clicontext"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/serverconfig"
+	"github.com/paladin-devops/waypoint/pkg/tokenutil"
 )
 
 func TestConnect(t *testing.T) {

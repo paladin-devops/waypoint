@@ -10,8 +10,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	serverptypes "github.com/hashicorp/waypoint/pkg/server/ptypes"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	serverptypes "github.com/paladin-devops/waypoint/pkg/server/ptypes"
 )
 
 func init() {

@@ -14,9 +14,9 @@ import (
 	"github.com/docker/docker/client"
 	"github.com/docker/docker/pkg/jsonmessage"
 
-	"github.com/hashicorp/waypoint/internal/installutil"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/installutil"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 type DockerConfig struct {

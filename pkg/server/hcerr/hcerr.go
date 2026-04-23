@@ -11,7 +11,7 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // Externalize is intended to be called by top-level grpc handler that's

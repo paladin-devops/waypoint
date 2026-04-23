@@ -1,4 +1,4 @@
-module github.com/hashicorp/waypoint
+module github.com/paladin-devops/waypoint
 
 go 1.19
 
@@ -96,6 +96,7 @@ require (
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opencontainers/image-spec v1.0.3-0.20211202183452-c5a74bcca799
+	github.com/paladin-devops/waypoint-plugin-sdk v0.0.0-20260423001639-e392f20b3118
 	github.com/pkg/errors v0.9.1
 	github.com/posener/complete v1.2.3
 	github.com/r3labs/diff v1.1.0
@@ -367,7 +368,6 @@ require (
 	github.com/evanphx/grpc-gateway v1.16.1-0.20220211183845-48e5be386c15
 	github.com/hashicorp/go-grpc-net-conn v0.0.0-20220321172933-7ab38178cb90
 	github.com/hashicorp/opaqueany v0.0.0-20220321170339-a5c6ff5bb0ec
-	github.com/hashicorp/waypoint-plugin-sdk v0.0.0-20230125180203-cb1d684e3cc5
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/rs/cors v1.7.0 // indirect

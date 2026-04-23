@@ -13,10 +13,10 @@ import (
 	"google.golang.org/grpc/status"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/hashicorp/waypoint/pkg/inlinekeepalive"
-	"github.com/hashicorp/waypoint/pkg/protocolversion"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/tokenutil"
+	"github.com/paladin-devops/waypoint/pkg/inlinekeepalive"
+	"github.com/paladin-devops/waypoint/pkg/protocolversion"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/tokenutil"
 )
 
 // client returns the Waypoint client or blocks until it is set or the

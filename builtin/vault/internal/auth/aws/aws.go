@@ -23,7 +23,7 @@ import (
 	"github.com/hashicorp/go-uuid"
 	"github.com/hashicorp/vault/api"
 
-	"github.com/hashicorp/waypoint/builtin/vault/internal/auth"
+	"github.com/paladin-devops/waypoint/builtin/vault/internal/auth"
 )
 
 const (

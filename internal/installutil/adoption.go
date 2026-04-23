@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	"github.com/hashicorp/waypoint/internal/clierrors"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint/internal/clierrors"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 func AdoptRunner(ctx context.Context, ui terminal.UI, client pb.WaypointClient, id string, addr string) error {

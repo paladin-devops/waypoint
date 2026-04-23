@@ -11,10 +11,10 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	"github.com/hashicorp/waypoint/internal/ceb/virtualceb"
-	"github.com/hashicorp/waypoint/internal/plugin"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint/internal/ceb/virtualceb"
+	"github.com/paladin-devops/waypoint/internal/plugin"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // Exec launches an exec plugin. Exec plugins are only used if the plugin's

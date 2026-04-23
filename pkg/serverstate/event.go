@@ -3,7 +3,7 @@ package serverstate
 import (
 	"time"
 
-	"github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 type Event struct {

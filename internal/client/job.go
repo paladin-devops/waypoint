@@ -11,12 +11,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	configpkg "github.com/hashicorp/waypoint/internal/config"
-	"github.com/hashicorp/waypoint/internal/jobstream"
-	"github.com/hashicorp/waypoint/internal/pkg/gitdirty"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/server/grpcmetadata"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	configpkg "github.com/paladin-devops/waypoint/internal/config"
+	"github.com/paladin-devops/waypoint/internal/jobstream"
+	"github.com/paladin-devops/waypoint/internal/pkg/gitdirty"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/server/grpcmetadata"
 )
 
 // job returns the basic job skeleton pre-populated with the correct

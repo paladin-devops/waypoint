@@ -2,7 +2,7 @@
 package tfc
 
 import (
-	sdk "github.com/hashicorp/waypoint-plugin-sdk"
+	sdk "github.com/paladin-devops/waypoint-plugin-sdk"
 )
 
 // Options are the SDK options to use for instantiation for this plugin.

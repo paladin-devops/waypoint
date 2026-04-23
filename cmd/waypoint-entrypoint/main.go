@@ -11,10 +11,10 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint/internal/ceb"
-	cebssh "github.com/hashicorp/waypoint/internal/ceb/ssh"
-	"github.com/hashicorp/waypoint/internal/pkg/signalcontext"
-	ssh "github.com/hashicorp/waypoint/internal/ssh"
+	"github.com/paladin-devops/waypoint/internal/ceb"
+	cebssh "github.com/paladin-devops/waypoint/internal/ceb/ssh"
+	"github.com/paladin-devops/waypoint/internal/pkg/signalcontext"
+	ssh "github.com/paladin-devops/waypoint/internal/ssh"
 )
 
 func main() {

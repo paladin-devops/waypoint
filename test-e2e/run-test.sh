@@ -102,7 +102,7 @@ if [ -z "$CI" ]; then
 fi
 
 # Run Docker tests
-go test -v "github.com/hashicorp/waypoint/test-e2e" -run "$E2E_PLATFORM"
+go test -v "github.com/paladin-devops/waypoint/test-e2e" -run "$E2E_PLATFORM"
 testResult=$?
 
 # Set up Nomad

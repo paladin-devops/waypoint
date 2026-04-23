@@ -1,8 +1,8 @@
 package cli
 
 import (
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
 )
 
 // Option is used to configure Init on baseCommand.

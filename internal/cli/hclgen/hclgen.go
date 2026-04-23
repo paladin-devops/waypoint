@@ -11,12 +11,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 
-	embedJson "github.com/hashicorp/waypoint/embedJson"
-	"github.com/hashicorp/waypoint/internal/clierrors"
-	"github.com/hashicorp/waypoint/internal/plugin"
-	fmtpkg "github.com/hashicorp/waypoint/pkg/config"
+	embedJson "github.com/paladin-devops/waypoint/embedJson"
+	"github.com/paladin-devops/waypoint/internal/clierrors"
+	"github.com/paladin-devops/waypoint/internal/plugin"
+	fmtpkg "github.com/paladin-devops/waypoint/pkg/config"
 )
 
 type PlugDocs struct {

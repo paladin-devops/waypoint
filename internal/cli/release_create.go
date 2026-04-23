@@ -11,11 +11,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	clientpkg "github.com/hashicorp/waypoint/internal/client"
-	"github.com/hashicorp/waypoint/internal/clierrors"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	clientpkg "github.com/paladin-devops/waypoint/internal/client"
+	"github.com/paladin-devops/waypoint/internal/clierrors"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 type ReleaseCreateCommand struct {

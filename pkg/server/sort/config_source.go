@@ -1,9 +1,10 @@
 package sort
 
 import (
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
 	"reflect"
 	"sort"
+
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 type ConfigSource []*pb.ConfigSource

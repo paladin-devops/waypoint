@@ -3,9 +3,9 @@ package client
 import (
 	"context"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	configpkg "github.com/hashicorp/waypoint/internal/config"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	configpkg "github.com/paladin-devops/waypoint/internal/config"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // App is used for application-specific operations.

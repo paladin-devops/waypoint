@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"github.com/hashicorp/go-hclog"
-	configpkg "github.com/hashicorp/waypoint/pkg/config"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/server/hcerr"
+	configpkg "github.com/paladin-devops/waypoint/pkg/config"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/server/hcerr"
 )
 
 func (s *Service) WaypointHclFmt(

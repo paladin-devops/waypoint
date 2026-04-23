@@ -15,14 +15,14 @@ import (
 	"github.com/docker/docker/pkg/jsonmessage"
 	"github.com/docker/go-connections/nat"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 
-	"github.com/hashicorp/waypoint/internal/clicontext"
-	"github.com/hashicorp/waypoint/internal/installutil"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	"github.com/hashicorp/waypoint/internal/runnerinstall"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/serverconfig"
+	"github.com/paladin-devops/waypoint/internal/clicontext"
+	"github.com/paladin-devops/waypoint/internal/installutil"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	"github.com/paladin-devops/waypoint/internal/runnerinstall"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/serverconfig"
 )
 
 type DockerInstaller struct {

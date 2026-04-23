@@ -1,8 +1,8 @@
 package appconfig
 
 import (
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	pb "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	pb "github.com/paladin-devops/waypoint-plugin-sdk/proto/gen"
 )
 
 // StaticConfigSourcer can be used in tests to provide a config sourcer

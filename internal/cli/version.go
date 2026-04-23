@@ -7,9 +7,9 @@ import (
 
 	"github.com/posener/complete"
 
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	"github.com/hashicorp/waypoint/internal/version"
-	"github.com/hashicorp/waypoint/pkg/serverclient"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	"github.com/paladin-devops/waypoint/internal/version"
+	"github.com/paladin-devops/waypoint/pkg/serverclient"
 )
 
 type VersionCommand struct {

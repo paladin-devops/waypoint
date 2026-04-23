@@ -7,8 +7,8 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/waypoint/pkg/server"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/server"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // Run initializes and starts the server. This will block until the server

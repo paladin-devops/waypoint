@@ -11,12 +11,12 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 
-	"github.com/hashicorp/waypoint/internal/appconfig"
-	"github.com/hashicorp/waypoint/internal/ceb/execwriter"
-	"github.com/hashicorp/waypoint/internal/plugin"
+	"github.com/paladin-devops/waypoint/internal/appconfig"
+	"github.com/paladin-devops/waypoint/internal/ceb/execwriter"
+	"github.com/paladin-devops/waypoint/internal/plugin"
 )
 
 // ExecInfo contains values to run an exec session.

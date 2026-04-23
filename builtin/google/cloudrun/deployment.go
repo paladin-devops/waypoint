@@ -13,7 +13,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
 )
 
 // apiResource returns the GCP API "resource" string format for API calls.

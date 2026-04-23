@@ -8,10 +8,10 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/pkg/errors"
 
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/server/hcerr"
-	"github.com/hashicorp/waypoint/pkg/server/ptypes"
-	"github.com/hashicorp/waypoint/pkg/serverstate"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/server/hcerr"
+	"github.com/paladin-devops/waypoint/pkg/server/ptypes"
+	"github.com/paladin-devops/waypoint/pkg/serverstate"
 )
 
 func (s *Service) UI_GetDeployment(

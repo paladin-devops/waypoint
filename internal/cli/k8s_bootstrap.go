@@ -14,13 +14,13 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/wait"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	"github.com/hashicorp/waypoint/internal/clierrors"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	"github.com/hashicorp/waypoint/internal/pkg/k8sauth"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/serverclient"
-	"github.com/hashicorp/waypoint/pkg/serverconfig"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint/internal/clierrors"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	"github.com/paladin-devops/waypoint/internal/pkg/k8sauth"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/serverclient"
+	"github.com/paladin-devops/waypoint/pkg/serverconfig"
 )
 
 type K8SBootstrapCommand struct {

@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/waypoint/internal/serverconfig"
+	"github.com/paladin-devops/waypoint/internal/serverconfig"
 )
 
 func TestServerURLService(t *testing.T) {

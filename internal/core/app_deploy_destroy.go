@@ -16,11 +16,11 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	"github.com/hashicorp/waypoint/internal/config"
-	"github.com/hashicorp/waypoint/internal/plugin"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint/internal/config"
+	"github.com/paladin-devops/waypoint/internal/plugin"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // CanDestroyDeploy returns true if this app supports destroying deployments.

@@ -13,12 +13,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	"github.com/hashicorp/waypoint/internal/plugin"
-	runnerpkg "github.com/hashicorp/waypoint/internal/runner"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/serverclient"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	"github.com/paladin-devops/waypoint/internal/plugin"
+	runnerpkg "github.com/paladin-devops/waypoint/internal/runner"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/serverclient"
 )
 
 type RunnerAgentCommand struct {

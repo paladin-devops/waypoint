@@ -10,11 +10,11 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/waypoint/builtin/vault/internal/auth"
-	"github.com/hashicorp/waypoint/builtin/vault/internal/auth/approle"
-	"github.com/hashicorp/waypoint/builtin/vault/internal/auth/aws"
-	"github.com/hashicorp/waypoint/builtin/vault/internal/auth/gcp"
-	"github.com/hashicorp/waypoint/builtin/vault/internal/auth/kubernetes"
+	"github.com/paladin-devops/waypoint/builtin/vault/internal/auth"
+	"github.com/paladin-devops/waypoint/builtin/vault/internal/auth/approle"
+	"github.com/paladin-devops/waypoint/builtin/vault/internal/auth/aws"
+	"github.com/paladin-devops/waypoint/builtin/vault/internal/auth/gcp"
+	"github.com/paladin-devops/waypoint/builtin/vault/internal/auth/kubernetes"
 )
 
 // initAuthMethod initializes a goroutine that grabs a Vault token

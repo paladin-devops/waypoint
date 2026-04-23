@@ -16,12 +16,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint/internal/env"
-	"github.com/hashicorp/waypoint/internal/pkg/gatedwriter"
-	"github.com/hashicorp/waypoint/internal/plugin"
-	"github.com/hashicorp/waypoint/internal/version"
-	"github.com/hashicorp/waypoint/pkg/server"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/env"
+	"github.com/paladin-devops/waypoint/internal/pkg/gatedwriter"
+	"github.com/paladin-devops/waypoint/internal/plugin"
+	"github.com/paladin-devops/waypoint/internal/version"
+	"github.com/paladin-devops/waypoint/pkg/server"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 const (

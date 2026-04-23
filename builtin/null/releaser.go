@@ -3,10 +3,10 @@ package null
 import (
 	"time"
 
-	sdk "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	sdk "github.com/paladin-devops/waypoint-plugin-sdk/proto/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 
-	"github.com/hashicorp/waypoint/builtin/k8s"
+	"github.com/paladin-devops/waypoint/builtin/k8s"
 )
 
 type Releaser struct {

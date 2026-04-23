@@ -1,8 +1,8 @@
 package appconfig
 
 import (
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	"github.com/hashicorp/waypoint/internal/plugin"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint/internal/plugin"
 )
 
 // testWithConfigSourcer can be used by tests to set a specific

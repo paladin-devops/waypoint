@@ -11,7 +11,7 @@ import (
 	"github.com/zclconf/go-cty/cty/function"
 	"github.com/zclconf/go-cty/cty/gocty"
 
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // Register registers the configdynamic function calls to the given

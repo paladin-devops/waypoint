@@ -21,13 +21,13 @@ import (
 
 	wphznpb "github.com/hashicorp/waypoint-hzn/pkg/pb"
 	wphzn "github.com/hashicorp/waypoint-hzn/pkg/server"
-	"github.com/hashicorp/waypoint/internal/server/boltdbstate"
-	"github.com/hashicorp/waypoint/pkg/serverstate"
+	"github.com/paladin-devops/waypoint/internal/server/boltdbstate"
+	"github.com/paladin-devops/waypoint/pkg/serverstate"
 
-	"github.com/hashicorp/waypoint/internal/serverconfig"
-	"github.com/hashicorp/waypoint/pkg/server"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	serverptypes "github.com/hashicorp/waypoint/pkg/server/ptypes"
+	"github.com/paladin-devops/waypoint/internal/serverconfig"
+	"github.com/paladin-devops/waypoint/pkg/server"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	serverptypes "github.com/paladin-devops/waypoint/pkg/server/ptypes"
 )
 
 // TestServer starts a singleprocess server and returns the connected client.

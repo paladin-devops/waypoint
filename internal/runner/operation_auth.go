@@ -7,9 +7,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint/internal/core"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	serverptypes "github.com/hashicorp/waypoint/pkg/server/ptypes"
+	"github.com/paladin-devops/waypoint/internal/core"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	serverptypes "github.com/paladin-devops/waypoint/pkg/server/ptypes"
 )
 
 func (r *Runner) executeAuthOp(

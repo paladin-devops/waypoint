@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
 	"github.com/olekukonko/tablewriter"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 	"github.com/slack-go/slack"
 )
 

@@ -11,11 +11,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
 
-	serverpkg "github.com/hashicorp/waypoint/pkg/server"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	pbmocks "github.com/hashicorp/waypoint/pkg/server/gen/mocks"
+	serverpkg "github.com/paladin-devops/waypoint/pkg/server"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	pbmocks "github.com/paladin-devops/waypoint/pkg/server/gen/mocks"
 )
 
 func TestComponentEnum(t *testing.T) {

@@ -3,15 +3,15 @@ package serverinstall
 import (
 	"context"
 
-	"github.com/hashicorp/waypoint/internal/runnerinstall"
+	"github.com/paladin-devops/waypoint/internal/runnerinstall"
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	"github.com/hashicorp/waypoint/internal/clicontext"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/serverconfig"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint/internal/clicontext"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/serverconfig"
 )
 
 // Installer is implemented by the server platforms and is responsible for managing

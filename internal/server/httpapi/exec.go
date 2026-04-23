@@ -8,10 +8,10 @@ import (
 	"nhooyr.io/websocket"
 	"nhooyr.io/websocket/wspb"
 
-	"github.com/hashicorp/waypoint/internal/clicontext"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/serverclient"
-	"github.com/hashicorp/waypoint/pkg/serverconfig"
+	"github.com/paladin-devops/waypoint/internal/clicontext"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/serverclient"
+	"github.com/paladin-devops/waypoint/pkg/serverconfig"
 )
 
 // HandleExec handles the `waypoint exec` websocket API. This works by

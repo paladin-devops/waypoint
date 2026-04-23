@@ -8,8 +8,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/hashicorp/waypoint/pkg/protocolversion"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/protocolversion"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 func TestVersionUnaryInterceptor(t *testing.T) {

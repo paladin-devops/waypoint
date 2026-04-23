@@ -14,11 +14,11 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/hashicorp/waypoint/pkg/pagination"
-	"github.com/hashicorp/waypoint/pkg/serverstate"
+	"github.com/paladin-devops/waypoint/pkg/pagination"
+	"github.com/paladin-devops/waypoint/pkg/serverstate"
 
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	serverptypes "github.com/hashicorp/waypoint/pkg/server/ptypes"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	serverptypes "github.com/paladin-devops/waypoint/pkg/server/ptypes"
 )
 
 func init() {

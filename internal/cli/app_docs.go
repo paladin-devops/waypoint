@@ -20,17 +20,17 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclwrite"
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	"github.com/hashicorp/waypoint-plugin-sdk/docs"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/docs"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 
-	clientpkg "github.com/hashicorp/waypoint/internal/client"
-	"github.com/hashicorp/waypoint/internal/clierrors"
-	"github.com/hashicorp/waypoint/internal/factory"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	"github.com/hashicorp/waypoint/internal/plugin"
-	"github.com/hashicorp/waypoint/pkg/config/funcs"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	clientpkg "github.com/paladin-devops/waypoint/internal/client"
+	"github.com/paladin-devops/waypoint/internal/clierrors"
+	"github.com/paladin-devops/waypoint/internal/factory"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	"github.com/paladin-devops/waypoint/internal/plugin"
+	"github.com/paladin-devops/waypoint/pkg/config/funcs"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 type AppDocsCommand struct {

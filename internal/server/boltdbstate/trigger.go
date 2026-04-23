@@ -10,7 +10,7 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	"github.com/hashicorp/go-memdb"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 var triggerBucket = []byte("trigger")

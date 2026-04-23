@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
 )
 
 // Plugin configures a plugin.

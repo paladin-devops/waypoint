@@ -2,9 +2,9 @@ package dockerref
 
 import (
 	"github.com/hashicorp/go-argmapper"
-	"github.com/hashicorp/waypoint-plugin-sdk/docs"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	wpdocker "github.com/hashicorp/waypoint/builtin/docker"
+	"github.com/paladin-devops/waypoint-plugin-sdk/docs"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	wpdocker "github.com/paladin-devops/waypoint/builtin/docker"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 )
 

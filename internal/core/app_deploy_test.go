@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	componentmocks "github.com/hashicorp/waypoint-plugin-sdk/component/mocks"
-	sdk "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
-	"github.com/hashicorp/waypoint/internal/config"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	componentmocks "github.com/paladin-devops/waypoint-plugin-sdk/component/mocks"
+	sdk "github.com/paladin-devops/waypoint-plugin-sdk/proto/gen"
+	"github.com/paladin-devops/waypoint/internal/config"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // Test that a DeployFunc that returns a DeclaredResource results in a resource saved on the deployment response

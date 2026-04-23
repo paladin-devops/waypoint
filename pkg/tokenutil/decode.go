@@ -7,7 +7,7 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 var (

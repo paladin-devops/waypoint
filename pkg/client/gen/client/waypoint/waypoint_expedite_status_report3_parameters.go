@@ -15,7 +15,7 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/hashicorp/waypoint/pkg/client/gen/models"
+	"github.com/paladin-devops/waypoint/pkg/client/gen/models"
 )
 
 // NewWaypointExpediteStatusReport3Params creates a new WaypointExpediteStatusReport3Params object,

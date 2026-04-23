@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/waypoint/internal/pkg/defaults/internal/fixture"
+	"github.com/paladin-devops/waypoint/internal/pkg/defaults/internal/fixture"
 )
 
 type (

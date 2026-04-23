@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/waypoint/internal/installutil"
-	"github.com/hashicorp/waypoint/internal/runnerinstall"
+	"github.com/paladin-devops/waypoint/internal/installutil"
+	"github.com/paladin-devops/waypoint/internal/runnerinstall"
 
 	"github.com/hashicorp/go-hclog"
 	"github.com/posener/complete"
@@ -17,15 +17,15 @@ import (
 	"google.golang.org/grpc/status"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	"github.com/hashicorp/waypoint/internal/clicontext"
-	"github.com/hashicorp/waypoint/internal/clierrors"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	"github.com/hashicorp/waypoint/internal/serverinstall"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/serverclient"
-	"github.com/hashicorp/waypoint/pkg/serverconfig"
-	"github.com/hashicorp/waypoint/pkg/tokenutil"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint/internal/clicontext"
+	"github.com/paladin-devops/waypoint/internal/clierrors"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	"github.com/paladin-devops/waypoint/internal/serverinstall"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/serverclient"
+	"github.com/paladin-devops/waypoint/pkg/serverconfig"
+	"github.com/paladin-devops/waypoint/pkg/tokenutil"
 )
 
 type InstallCommand struct {

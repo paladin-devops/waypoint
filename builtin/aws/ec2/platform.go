@@ -15,11 +15,11 @@ import (
 	"google.golang.org/grpc/status"
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	"github.com/hashicorp/waypoint-plugin-sdk/docs"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	"github.com/hashicorp/waypoint/builtin/aws/ami"
-	"github.com/hashicorp/waypoint/builtin/aws/utils"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/docs"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint/builtin/aws/ami"
+	"github.com/paladin-devops/waypoint/builtin/aws/utils"
 )
 
 const (

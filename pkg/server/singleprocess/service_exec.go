@@ -10,11 +10,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint/pkg/server"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/server/grpcmetadata"
-	"github.com/hashicorp/waypoint/pkg/server/ptypes"
-	"github.com/hashicorp/waypoint/pkg/serverstate"
+	"github.com/paladin-devops/waypoint/pkg/server"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/server/grpcmetadata"
+	"github.com/paladin-devops/waypoint/pkg/server/ptypes"
+	"github.com/paladin-devops/waypoint/pkg/serverstate"
 )
 
 func (s *Service) StartExecStream(

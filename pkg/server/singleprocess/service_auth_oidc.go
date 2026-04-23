@@ -14,10 +14,10 @@ import (
 	"google.golang.org/grpc/status"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 
-	wpoidc "github.com/hashicorp/waypoint/pkg/auth/oidc"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/server/hcerr"
-	serverptypes "github.com/hashicorp/waypoint/pkg/server/ptypes"
+	wpoidc "github.com/paladin-devops/waypoint/pkg/auth/oidc"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/server/hcerr"
+	serverptypes "github.com/paladin-devops/waypoint/pkg/server/ptypes"
 )
 
 const (

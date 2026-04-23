@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hashicorp/waypoint/pkg/server"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/serverhandler/handlertest"
-	"github.com/hashicorp/waypoint/pkg/serverstate"
+	"github.com/paladin-devops/waypoint/pkg/server"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/serverhandler/handlertest"
+	"github.com/paladin-devops/waypoint/pkg/serverstate"
 )
 
 func init() {

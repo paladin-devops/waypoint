@@ -4,22 +4,23 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
-	"github.com/google/go-cmp/cmp"
-	"google.golang.org/protobuf/testing/protocmp"
 	"math/rand"
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/google/go-cmp/cmp"
+	"google.golang.org/protobuf/testing/protocmp"
 
 	"github.com/hashicorp/go-memdb"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint/internal/pkg/jsonpb"
-	"github.com/hashicorp/waypoint/pkg/pagination"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	serverptypes "github.com/hashicorp/waypoint/pkg/server/ptypes"
+	"github.com/paladin-devops/waypoint/internal/pkg/jsonpb"
+	"github.com/paladin-devops/waypoint/pkg/pagination"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	serverptypes "github.com/paladin-devops/waypoint/pkg/server/ptypes"
 )
 
 func init() {

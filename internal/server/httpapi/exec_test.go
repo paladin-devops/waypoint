@@ -15,9 +15,9 @@ import (
 	"nhooyr.io/websocket"
 	"nhooyr.io/websocket/wspb"
 
-	"github.com/hashicorp/waypoint/pkg/protocolversion"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/server/gen/mocks"
+	"github.com/paladin-devops/waypoint/pkg/protocolversion"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/server/gen/mocks"
 )
 
 // This code uses the magic token value 445DHu. This value is a base58 encoded

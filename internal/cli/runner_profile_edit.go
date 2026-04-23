@@ -5,12 +5,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 
-	cli "github.com/hashicorp/waypoint/internal/cli/editor"
-	"github.com/hashicorp/waypoint/internal/clierrors"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	cli "github.com/paladin-devops/waypoint/internal/cli/editor"
+	"github.com/paladin-devops/waypoint/internal/clierrors"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 type RunnerProfileEditCommand struct {

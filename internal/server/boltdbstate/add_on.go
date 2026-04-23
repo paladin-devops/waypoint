@@ -6,7 +6,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 func (s *State) AddOnDefinitionPut(ctx context.Context, definition *pb.AddOnDefinition) (*pb.AddOnDefinition, error) {

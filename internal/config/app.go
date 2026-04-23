@@ -9,8 +9,8 @@ import (
 	"github.com/mitchellh/copystructure"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/waypoint/pkg/config/funcs"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/config/funcs"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // App represents a single application.

@@ -18,10 +18,10 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/go-glint"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	"github.com/hashicorp/waypoint/internal/env"
-	"github.com/hashicorp/waypoint/internal/pkg/signalcontext"
-	"github.com/hashicorp/waypoint/internal/version"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint/internal/env"
+	"github.com/paladin-devops/waypoint/internal/pkg/signalcontext"
+	"github.com/paladin-devops/waypoint/internal/version"
 )
 
 const (

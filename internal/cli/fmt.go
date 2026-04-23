@@ -9,12 +9,12 @@ import (
 
 	"github.com/posener/complete"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 
-	"github.com/hashicorp/waypoint/internal/clierrors"
-	"github.com/hashicorp/waypoint/internal/config"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	configpkg "github.com/hashicorp/waypoint/pkg/config"
+	"github.com/paladin-devops/waypoint/internal/clierrors"
+	"github.com/paladin-devops/waypoint/internal/config"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	configpkg "github.com/paladin-devops/waypoint/pkg/config"
 )
 
 type FmtCommand struct {

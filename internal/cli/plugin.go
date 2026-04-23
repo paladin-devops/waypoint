@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	sdk "github.com/hashicorp/waypoint-plugin-sdk"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	"github.com/hashicorp/waypoint/internal/plugin"
+	sdk "github.com/paladin-devops/waypoint-plugin-sdk"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	"github.com/paladin-devops/waypoint/internal/plugin"
 )
 
 type PluginCommand struct {

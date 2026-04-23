@@ -1,10 +1,11 @@
 package ptypes
 
 import (
-	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"testing"
 
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	validation "github.com/go-ozzo/ozzo-validation/v4"
+
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 func TestValidateCreateProjectTemplateRequest(t *testing.T) {

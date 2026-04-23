@@ -3,8 +3,8 @@ package cli
 import (
 	"sort"
 
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 type filterOption int

@@ -6,9 +6,9 @@ import (
 	"github.com/hashicorp/go-hclog"
 	empty "google.golang.org/protobuf/types/known/emptypb"
 
-	configpkg "github.com/hashicorp/waypoint/internal/config"
-	"github.com/hashicorp/waypoint/internal/runner"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	configpkg "github.com/paladin-devops/waypoint/internal/config"
+	"github.com/paladin-devops/waypoint/internal/runner"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // startRunner initializes and starts a local runner.

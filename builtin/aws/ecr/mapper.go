@@ -1,7 +1,7 @@
 package ecr
 
 import (
-	"github.com/hashicorp/waypoint/builtin/docker"
+	"github.com/paladin-devops/waypoint/builtin/docker"
 )
 
 // ECRImageMapper maps a ecr.Image to a docker.Image structure.

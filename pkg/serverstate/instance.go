@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/hashicorp/go-memdb"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/server/logbuffer"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/server/logbuffer"
 )
 
 // Instance represents a running deployment instance for an application.

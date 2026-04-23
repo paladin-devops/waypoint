@@ -26,10 +26,10 @@ import (
 	"github.com/zclconf/go-cty/cty/function"
 	"github.com/zclconf/go-cty/cty/gocty"
 
-	"github.com/hashicorp/waypoint/internal/appconfig"
-	"github.com/hashicorp/waypoint/internal/config/dynamic"
-	"github.com/hashicorp/waypoint/internal/config/variables/formatter"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/appconfig"
+	"github.com/paladin-devops/waypoint/internal/config/dynamic"
+	"github.com/paladin-devops/waypoint/internal/config/variables/formatter"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 const (
