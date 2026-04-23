@@ -7,8 +7,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // runnerUI Implements terminal.UI and is created by a runner and passed into

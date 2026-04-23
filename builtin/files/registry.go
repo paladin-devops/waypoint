@@ -5,10 +5,10 @@ import (
 	"crypto/rand"
 	"path"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/docs"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	"github.com/hashicorp/waypoint/internal/pkg/copy"
 	"github.com/oklog/ulid"
+	"github.com/paladin-devops/waypoint-plugin-sdk/docs"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint/internal/pkg/copy"
 )
 
 // Registry represents access to a Files registry.

@@ -7,9 +7,9 @@ import (
 	"github.com/mitchellh/hashstructure/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/waypoint/internal/pkg/validationext"
-	serverpkg "github.com/hashicorp/waypoint/pkg/server"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/pkg/validationext"
+	serverpkg "github.com/paladin-devops/waypoint/pkg/server"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // RunnerLabelHash calculates a unique hash for the set of labels on the

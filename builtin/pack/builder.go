@@ -17,18 +17,18 @@ import (
 	"github.com/docker/distribution/reference"
 	"github.com/docker/docker/client"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	"github.com/hashicorp/waypoint-plugin-sdk/docs"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/docs"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 	"github.com/pkg/errors"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint/builtin/docker"
-	wpdockerclient "github.com/hashicorp/waypoint/builtin/docker/client"
-	"github.com/hashicorp/waypoint/internal/assets"
-	"github.com/hashicorp/waypoint/internal/pkg/epinject"
-	"github.com/hashicorp/waypoint/internal/pkg/epinject/ociregistry"
+	"github.com/paladin-devops/waypoint/builtin/docker"
+	wpdockerclient "github.com/paladin-devops/waypoint/builtin/docker/client"
+	"github.com/paladin-devops/waypoint/internal/assets"
+	"github.com/paladin-devops/waypoint/internal/pkg/epinject"
+	"github.com/paladin-devops/waypoint/internal/pkg/epinject/ociregistry"
 )
 
 const (

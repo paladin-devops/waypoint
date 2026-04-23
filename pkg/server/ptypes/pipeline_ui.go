@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/hashicorp/waypoint/internal/pkg/graph"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/pkg/graph"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // UI_PipelineRunTreeFromJobs takes a graph of Jobs and StatusReports and

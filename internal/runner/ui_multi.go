@@ -3,7 +3,7 @@ package runner
 import (
 	"io"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 )
 
 // multiUI mirrors UI operations to multiple UIs.

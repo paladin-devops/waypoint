@@ -17,15 +17,15 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 
-	"github.com/hashicorp/waypoint/builtin/k8s"
-	"github.com/hashicorp/waypoint/internal/clierrors"
-	"github.com/hashicorp/waypoint/internal/installutil"
-	helminstallutil "github.com/hashicorp/waypoint/internal/installutil/helm"
-	k8sinstallutil "github.com/hashicorp/waypoint/internal/installutil/k8s"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/builtin/k8s"
+	"github.com/paladin-devops/waypoint/internal/clierrors"
+	"github.com/paladin-devops/waypoint/internal/installutil"
+	helminstallutil "github.com/paladin-devops/waypoint/internal/installutil/helm"
+	k8sinstallutil "github.com/paladin-devops/waypoint/internal/installutil/k8s"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 type K8sRunnerInstaller struct {

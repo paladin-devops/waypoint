@@ -12,8 +12,8 @@ import (
 	"github.com/mitchellh/go-testing-interface"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/waypoint/internal/pkg/validationext"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/pkg/validationext"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 func TestJobNew(t testing.T, src *pb.Job) *pb.Job {

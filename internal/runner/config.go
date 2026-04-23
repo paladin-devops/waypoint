@@ -14,9 +14,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint/internal/appconfig"
-	"github.com/hashicorp/waypoint/internal/clierrors"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/appconfig"
+	"github.com/paladin-devops/waypoint/internal/clierrors"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // appConfigRefreshPeriod is the interval between checking for new

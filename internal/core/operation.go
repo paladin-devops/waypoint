@@ -12,12 +12,12 @@ import (
 	"github.com/hashicorp/opaqueany"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
 
-	"github.com/hashicorp/waypoint/internal/config"
-	"github.com/hashicorp/waypoint/internal/pkg/finalcontext"
-	"github.com/hashicorp/waypoint/pkg/server"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/config"
+	"github.com/paladin-devops/waypoint/internal/pkg/finalcontext"
+	"github.com/paladin-devops/waypoint/pkg/server"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // operation is a private interface that we implement for "operations" such

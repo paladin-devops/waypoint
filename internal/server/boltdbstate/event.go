@@ -2,9 +2,10 @@ package boltdbstate
 
 import (
 	"context"
+
 	"github.com/hashicorp/go-memdb"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/serverstate"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/serverstate"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

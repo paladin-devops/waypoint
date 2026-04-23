@@ -10,23 +10,23 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/waypoint/internal/installutil"
+	"github.com/paladin-devops/waypoint/internal/installutil"
 
-	"github.com/hashicorp/waypoint/internal/installutil/nomad"
-	"github.com/hashicorp/waypoint/internal/runnerinstall"
+	"github.com/paladin-devops/waypoint/internal/installutil/nomad"
+	"github.com/paladin-devops/waypoint/internal/runnerinstall"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
 	"github.com/hashicorp/nomad/api"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 
-	"github.com/hashicorp/waypoint/internal/clicontext"
-	"github.com/hashicorp/waypoint/internal/clierrors"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/serverconfig"
+	"github.com/paladin-devops/waypoint/internal/clicontext"
+	"github.com/paladin-devops/waypoint/internal/clierrors"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/serverconfig"
 )
 
 const runnerJobName string = "waypoint-static-runner"

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/hashicorp/waypoint/pkg/client/gen/models"
+	"github.com/paladin-devops/waypoint/pkg/client/gen/models"
 )
 
 // WaypointUIListReleases3Reader is a Reader for the WaypointUIListReleases3 structure.

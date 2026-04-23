@@ -2,13 +2,14 @@ package runner
 
 import (
 	"context"
-	"github.com/hashicorp/go-hclog"
-	configinternal "github.com/hashicorp/waypoint/internal/config"
-	"github.com/hashicorp/waypoint/internal/core"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/server/singleprocess"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/hashicorp/go-hclog"
+	configinternal "github.com/paladin-devops/waypoint/internal/config"
+	"github.com/paladin-devops/waypoint/internal/core"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/server/singleprocess"
+	"github.com/stretchr/testify/require"
 )
 
 func TestProjectDestroyOp(t *testing.T) {

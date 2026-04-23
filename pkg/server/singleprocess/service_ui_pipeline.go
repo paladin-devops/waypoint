@@ -8,9 +8,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/server/hcerr"
-	serverptypes "github.com/hashicorp/waypoint/pkg/server/ptypes"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/server/hcerr"
+	serverptypes "github.com/paladin-devops/waypoint/pkg/server/ptypes"
 )
 
 // UI_ListPipelines returns pipelines for a given project. While paginating is

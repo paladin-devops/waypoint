@@ -13,12 +13,12 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/hashicorp/waypoint/internal/clicontext"
-	"github.com/hashicorp/waypoint/internal/env"
-	"github.com/hashicorp/waypoint/pkg/inlinekeepalive"
-	"github.com/hashicorp/waypoint/pkg/protocolversion"
-	"github.com/hashicorp/waypoint/pkg/serverconfig"
-	"github.com/hashicorp/waypoint/pkg/tokenutil"
+	"github.com/paladin-devops/waypoint/internal/clicontext"
+	"github.com/paladin-devops/waypoint/internal/env"
+	"github.com/paladin-devops/waypoint/pkg/inlinekeepalive"
+	"github.com/paladin-devops/waypoint/pkg/protocolversion"
+	"github.com/paladin-devops/waypoint/pkg/serverconfig"
+	"github.com/paladin-devops/waypoint/pkg/tokenutil"
 )
 
 // ErrNoServerConfig is the error when there is no server configuration

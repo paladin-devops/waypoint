@@ -8,9 +8,9 @@ import (
 	"github.com/mitchellh/go-testing-interface"
 	"github.com/stretchr/testify/require"
 
-	configpkg "github.com/hashicorp/waypoint/internal/config"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/server/singleprocess"
+	configpkg "github.com/paladin-devops/waypoint/internal/config"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/server/singleprocess"
 )
 
 // TestProject returns an initialized client pointing to an in-memory test

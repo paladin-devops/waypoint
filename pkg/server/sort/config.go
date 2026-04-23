@@ -7,9 +7,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/waypoint/pkg/config/funcs"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
 	"github.com/mitchellh/pointerstructure"
+	"github.com/paladin-devops/waypoint/pkg/config/funcs"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 	"github.com/zclconf/go-cty/cty"
 )
 

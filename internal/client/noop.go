@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // Noop executes a noop operation. This is primarily for testing but is

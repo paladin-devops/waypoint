@@ -15,17 +15,17 @@ import (
 	awsecr "github.com/aws/aws-sdk-go/service/ecr"
 	"github.com/aws/aws-sdk-go/service/lambda"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	"github.com/hashicorp/waypoint-plugin-sdk/docs"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	"github.com/hashicorp/waypoint/builtin/aws/ecr"
-	"github.com/hashicorp/waypoint/builtin/aws/utils"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/docs"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint/builtin/aws/ecr"
+	"github.com/paladin-devops/waypoint/builtin/aws/utils"
 
 	"encoding/base64"
 	"encoding/json"
 
-	wpdocker "github.com/hashicorp/waypoint/builtin/docker"
-	wpdockerpull "github.com/hashicorp/waypoint/builtin/docker/pull"
+	wpdocker "github.com/paladin-devops/waypoint/builtin/docker"
+	wpdockerpull "github.com/paladin-devops/waypoint/builtin/docker/pull"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 )

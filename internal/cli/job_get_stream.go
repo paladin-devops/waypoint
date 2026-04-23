@@ -1,10 +1,10 @@
 package cli
 
 import (
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	"github.com/hashicorp/waypoint/internal/clierrors"
-	jobstream "github.com/hashicorp/waypoint/internal/jobstream"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint/internal/clierrors"
+	jobstream "github.com/paladin-devops/waypoint/internal/jobstream"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
 )
 
 type JobGetStreamCommand struct {

@@ -6,15 +6,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/waypoint/pkg/server/hcerr"
-	"github.com/hashicorp/waypoint/pkg/server/ptypes"
+	"github.com/paladin-devops/waypoint/pkg/server/hcerr"
+	"github.com/paladin-devops/waypoint/pkg/server/ptypes"
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/waypoint/pkg/server"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	serverptypes "github.com/hashicorp/waypoint/pkg/server/ptypes"
-	"github.com/hashicorp/waypoint/pkg/serverstate"
+	"github.com/paladin-devops/waypoint/pkg/server"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	serverptypes "github.com/paladin-devops/waypoint/pkg/server/ptypes"
+	"github.com/paladin-devops/waypoint/pkg/serverstate"
 )
 
 func (s *Service) UpsertDeployment(

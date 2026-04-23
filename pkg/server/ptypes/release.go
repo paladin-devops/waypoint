@@ -7,8 +7,8 @@ import (
 
 	"github.com/mitchellh/go-testing-interface"
 
-	"github.com/hashicorp/waypoint/internal/pkg/validationext"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/pkg/validationext"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 func TestRelease(t testing.T, src *pb.Release) *pb.Release {

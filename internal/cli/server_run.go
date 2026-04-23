@@ -25,24 +25,24 @@ import (
 	hzntest "github.com/hashicorp/horizon/pkg/testutils/central"
 
 	wphzn "github.com/hashicorp/waypoint-hzn/pkg/server"
-	"github.com/hashicorp/waypoint/internal/server/boltdbstate"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/server/singleprocess"
+	"github.com/paladin-devops/waypoint/internal/server/boltdbstate"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/server/singleprocess"
 
-	"github.com/hashicorp/waypoint/internal/telemetry"
-	serverpkg "github.com/hashicorp/waypoint/pkg/server"
+	"github.com/paladin-devops/waypoint/internal/telemetry"
+	serverpkg "github.com/paladin-devops/waypoint/pkg/server"
 
 	"github.com/mitchellh/go-testing-interface"
 	"github.com/posener/complete"
 	"github.com/stretchr/testify/require"
 	bolt "go.etcd.io/bbolt"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 
-	"github.com/hashicorp/waypoint/internal/pkg/cert"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	"github.com/hashicorp/waypoint/internal/server"
-	"github.com/hashicorp/waypoint/internal/serverconfig"
+	"github.com/paladin-devops/waypoint/internal/pkg/cert"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	"github.com/paladin-devops/waypoint/internal/server"
+	"github.com/paladin-devops/waypoint/internal/serverconfig"
 )
 
 const tosStatement = `

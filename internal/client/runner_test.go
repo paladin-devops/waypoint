@@ -4,14 +4,14 @@ import (
 	"context"
 	"testing"
 
-	configpkg "github.com/hashicorp/waypoint/internal/config"
-	"github.com/hashicorp/waypoint/pkg/server"
-	"github.com/hashicorp/waypoint/pkg/server/singleprocess"
+	configpkg "github.com/paladin-devops/waypoint/internal/config"
+	"github.com/paladin-devops/waypoint/pkg/server"
+	"github.com/paladin-devops/waypoint/pkg/server/singleprocess"
 
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/require"
 
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 func Test_remoteOpPreferred(t *testing.T) {

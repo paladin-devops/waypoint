@@ -15,11 +15,11 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	sdk "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
-	"github.com/hashicorp/waypoint/internal/config"
-	"github.com/hashicorp/waypoint/internal/plugin"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	sdk "github.com/paladin-devops/waypoint-plugin-sdk/proto/gen"
+	"github.com/paladin-devops/waypoint/internal/config"
+	"github.com/paladin-devops/waypoint/internal/plugin"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 func (a *App) DeploymentStatusReport(

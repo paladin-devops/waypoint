@@ -5,8 +5,8 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/serverstate"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/serverstate"
 )
 
 // Provider provides a log stream tracker

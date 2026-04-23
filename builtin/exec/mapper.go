@@ -1,7 +1,7 @@
 package exec
 
 import (
-	"github.com/hashicorp/waypoint/builtin/docker"
+	"github.com/paladin-devops/waypoint/builtin/docker"
 )
 
 // DockerImageMapper maps a docker.Image to our Input structure.

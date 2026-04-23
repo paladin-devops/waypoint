@@ -9,12 +9,12 @@ import (
 	"google.golang.org/grpc/status"
 
 	wphznpb "github.com/hashicorp/waypoint-hzn/pkg/pb"
-	"github.com/hashicorp/waypoint/internal/serverconfig"
-	wpoidc "github.com/hashicorp/waypoint/pkg/auth/oidc"
-	"github.com/hashicorp/waypoint/pkg/server"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/server/logstream"
-	"github.com/hashicorp/waypoint/pkg/serverstate"
+	"github.com/paladin-devops/waypoint/internal/serverconfig"
+	wpoidc "github.com/paladin-devops/waypoint/pkg/auth/oidc"
+	"github.com/paladin-devops/waypoint/pkg/server"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/server/logstream"
+	"github.com/paladin-devops/waypoint/pkg/serverstate"
 )
 
 // Service implements the gRPC service for the server.

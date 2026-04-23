@@ -21,9 +21,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint/internal/pkg/protowriter"
-	"github.com/hashicorp/waypoint/pkg/protocolversion"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/pkg/protowriter"
+	"github.com/paladin-devops/waypoint/pkg/protocolversion"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // CreateSnapshot creates a database snapshot and writes it to the given writer.

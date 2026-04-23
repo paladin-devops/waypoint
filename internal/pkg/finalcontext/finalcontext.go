@@ -15,7 +15,7 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/waypoint/internal/pkg/signalcontext"
+	"github.com/paladin-devops/waypoint/internal/pkg/signalcontext"
 )
 
 // Context returns a final context. This context is set to timeout in

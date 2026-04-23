@@ -8,13 +8,13 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/posener/complete"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 
-	clientpkg "github.com/hashicorp/waypoint/internal/client"
-	"github.com/hashicorp/waypoint/internal/clierrors"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	serversort "github.com/hashicorp/waypoint/pkg/server/sort"
+	clientpkg "github.com/paladin-devops/waypoint/internal/client"
+	"github.com/paladin-devops/waypoint/internal/clierrors"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	serversort "github.com/paladin-devops/waypoint/pkg/server/sort"
 )
 
 type BuildListCommand struct {

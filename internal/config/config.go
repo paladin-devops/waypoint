@@ -9,9 +9,9 @@ import (
 	"github.com/hashicorp/hcl/v2/gohcl"
 	"github.com/hashicorp/hcl/v2/hclsimple"
 
-	"github.com/hashicorp/waypoint/internal/config/variables"
-	"github.com/hashicorp/waypoint/internal/pkg/defaults"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/config/variables"
+	"github.com/paladin-devops/waypoint/internal/pkg/defaults"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 type Config struct {

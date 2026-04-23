@@ -13,8 +13,8 @@ import (
 	bolt "go.etcd.io/bbolt"
 	"google.golang.org/protobuf/proto"
 
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	serversort "github.com/hashicorp/waypoint/pkg/server/sort"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	serversort "github.com/paladin-devops/waypoint/pkg/server/sort"
 )
 
 var configSourceBucket = []byte("config_source")

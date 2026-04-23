@@ -8,8 +8,8 @@ import (
 	"github.com/posener/complete"
 	sshterm "golang.org/x/crypto/ssh/terminal"
 
-	"github.com/hashicorp/waypoint/internal/clisnapshot"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
+	"github.com/paladin-devops/waypoint/internal/clisnapshot"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
 )
 
 type SnapshotBackupCommand struct {

@@ -9,12 +9,12 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	componentmocks "github.com/hashicorp/waypoint-plugin-sdk/component/mocks"
-	"github.com/hashicorp/waypoint-plugin-sdk/datadir"
-	"github.com/hashicorp/waypoint/internal/config"
-	"github.com/hashicorp/waypoint/internal/factory"
-	"github.com/hashicorp/waypoint/pkg/server/singleprocess"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	componentmocks "github.com/paladin-devops/waypoint-plugin-sdk/component/mocks"
+	"github.com/paladin-devops/waypoint-plugin-sdk/datadir"
+	"github.com/paladin-devops/waypoint/internal/config"
+	"github.com/paladin-devops/waypoint/internal/factory"
+	"github.com/paladin-devops/waypoint/pkg/server/singleprocess"
 )
 
 // TestProject returns a fully in-memory and side-effect free Project that

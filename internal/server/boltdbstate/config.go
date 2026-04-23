@@ -14,9 +14,9 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	"github.com/hashicorp/go-memdb"
-	"github.com/hashicorp/waypoint/pkg/config/funcs"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	serversort "github.com/hashicorp/waypoint/pkg/server/sort"
+	"github.com/paladin-devops/waypoint/pkg/config/funcs"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	serversort "github.com/paladin-devops/waypoint/pkg/server/sort"
 )
 
 var (

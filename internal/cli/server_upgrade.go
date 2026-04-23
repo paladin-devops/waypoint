@@ -15,18 +15,18 @@ import (
 	empty "google.golang.org/protobuf/types/known/emptypb"
 
 	"github.com/hashicorp/go-version"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 
-	"github.com/hashicorp/waypoint/builtin/k8s"
-	clientpkg "github.com/hashicorp/waypoint/internal/client"
-	"github.com/hashicorp/waypoint/internal/clierrors"
-	"github.com/hashicorp/waypoint/internal/clisnapshot"
-	"github.com/hashicorp/waypoint/internal/installutil"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	"github.com/hashicorp/waypoint/internal/runnerinstall"
-	"github.com/hashicorp/waypoint/internal/serverinstall"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/serverclient"
+	"github.com/paladin-devops/waypoint/builtin/k8s"
+	clientpkg "github.com/paladin-devops/waypoint/internal/client"
+	"github.com/paladin-devops/waypoint/internal/clierrors"
+	"github.com/paladin-devops/waypoint/internal/clisnapshot"
+	"github.com/paladin-devops/waypoint/internal/installutil"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	"github.com/paladin-devops/waypoint/internal/runnerinstall"
+	"github.com/paladin-devops/waypoint/internal/serverinstall"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/serverclient"
 )
 
 type ServerUpgradeCommand struct {

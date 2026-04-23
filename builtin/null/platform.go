@@ -3,8 +3,8 @@ package null
 import (
 	"time"
 
-	sdk "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	sdk "github.com/paladin-devops/waypoint-plugin-sdk/proto/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 	"google.golang.org/protobuf/types/known/emptypb"
 )
 

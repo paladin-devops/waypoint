@@ -7,9 +7,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint/internal/core"
-	"github.com/hashicorp/waypoint/internal/jobstream"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/core"
+	"github.com/paladin-devops/waypoint/internal/jobstream"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 func (r *Runner) executePipelineStepOp(

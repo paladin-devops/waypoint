@@ -3,8 +3,8 @@ package cli
 import (
 	"encoding/json"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
 	"github.com/posener/complete"
 )
 

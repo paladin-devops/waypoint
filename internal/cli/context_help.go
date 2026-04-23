@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/go-homedir"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
 	"github.com/posener/complete"
 )
 

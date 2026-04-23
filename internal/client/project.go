@@ -6,11 +6,11 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	configpkg "github.com/hashicorp/waypoint/internal/config"
-	"github.com/hashicorp/waypoint/internal/runner"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/serverclient"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	configpkg "github.com/paladin-devops/waypoint/internal/config"
+	"github.com/paladin-devops/waypoint/internal/runner"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/serverclient"
 )
 
 // Project is the primary structure for interacting with a Waypoint

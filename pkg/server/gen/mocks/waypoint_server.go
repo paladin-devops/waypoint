@@ -5,7 +5,7 @@ package mocks
 import (
 	context "context"
 
-	gen "github.com/hashicorp/waypoint/pkg/server/gen"
+	gen "github.com/paladin-devops/waypoint/pkg/server/gen"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
 
 	mock "github.com/stretchr/testify/mock"

@@ -11,11 +11,11 @@ import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"helm.sh/helm/v3/pkg/release"
 
-	sdk "github.com/hashicorp/waypoint-plugin-sdk/proto/gen"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	"github.com/hashicorp/waypoint/builtin/k8s"
-	"github.com/hashicorp/waypoint/builtin/k8s/internal/k8sstatus"
-	"github.com/hashicorp/waypoint/builtin/k8s/internal/manifest"
+	sdk "github.com/paladin-devops/waypoint-plugin-sdk/proto/gen"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint/builtin/k8s"
+	"github.com/paladin-devops/waypoint/builtin/k8s/internal/k8sstatus"
+	"github.com/paladin-devops/waypoint/builtin/k8s/internal/manifest"
 )
 
 func (p *Platform) StatusFunc() interface{} {

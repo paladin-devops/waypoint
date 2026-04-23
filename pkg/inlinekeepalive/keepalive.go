@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 const (

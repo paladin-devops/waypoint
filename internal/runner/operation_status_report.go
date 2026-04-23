@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/waypoint/internal/core"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/core"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 func (r *Runner) executeStatusReportOp(

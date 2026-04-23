@@ -3,8 +3,8 @@ package singleprocess
 import (
 	"context"
 
-	"github.com/hashicorp/waypoint/internal/server/boltdbstate"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/server/boltdbstate"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 func testServiceImpl(impl pb.WaypointServer) *Service {

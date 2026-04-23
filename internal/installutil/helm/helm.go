@@ -20,7 +20,7 @@ import (
 	"k8s.io/client-go/restmapper"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/hashicorp/waypoint/builtin/k8s"
+	"github.com/paladin-devops/waypoint/builtin/k8s"
 )
 
 // restClientGetter is a RESTClientGetter interface implementation for the

@@ -8,8 +8,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
 	"github.com/mitchellh/cli"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
 )
 
 type DocsCommand struct {

@@ -14,8 +14,8 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/hashicorp/waypoint/internal/pkg/gatedwriter"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/pkg/gatedwriter"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // initSystemLogger initializes ceb.logger and sets up all the fields

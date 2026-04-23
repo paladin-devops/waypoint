@@ -9,8 +9,8 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint/pkg/protocolversion"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/protocolversion"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // VersionUnaryInterceptor returns a gRPC unary interceptor that negotiates

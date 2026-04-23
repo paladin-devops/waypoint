@@ -15,17 +15,17 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
 
-	"github.com/hashicorp/waypoint/internal/cli/datagen"
-	hclpkg "github.com/hashicorp/waypoint/internal/cli/hclgen"
-	clientpkg "github.com/hashicorp/waypoint/internal/client"
-	"github.com/hashicorp/waypoint/internal/clierrors"
-	configpkg "github.com/hashicorp/waypoint/internal/config"
-	"github.com/hashicorp/waypoint/internal/datasource"
-	"github.com/hashicorp/waypoint/internal/pkg/flag"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	serverptypes "github.com/hashicorp/waypoint/pkg/server/ptypes"
+	"github.com/paladin-devops/waypoint/internal/cli/datagen"
+	hclpkg "github.com/paladin-devops/waypoint/internal/cli/hclgen"
+	clientpkg "github.com/paladin-devops/waypoint/internal/client"
+	"github.com/paladin-devops/waypoint/internal/clierrors"
+	configpkg "github.com/paladin-devops/waypoint/internal/config"
+	"github.com/paladin-devops/waypoint/internal/datasource"
+	"github.com/paladin-devops/waypoint/internal/pkg/flag"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	serverptypes "github.com/paladin-devops/waypoint/pkg/server/ptypes"
 )
 
 type InitCommand struct {

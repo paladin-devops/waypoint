@@ -2,9 +2,10 @@ package boltdbstate
 
 import (
 	"context"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/stretchr/testify/require"
 )
 
 func TestProject(t *testing.T) {

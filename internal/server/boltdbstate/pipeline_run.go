@@ -12,8 +12,8 @@ import (
 
 	"github.com/hashicorp/go-memdb"
 
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
-	"github.com/hashicorp/waypoint/pkg/server/ptypes"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/server/ptypes"
 )
 
 var pipelineRunBucket = []byte("pipeline_run")

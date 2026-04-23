@@ -9,9 +9,9 @@ import (
 	"github.com/mitchellh/go-testing-interface"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hashicorp/waypoint/internal/pkg/graph"
-	"github.com/hashicorp/waypoint/internal/pkg/validationext"
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/internal/pkg/graph"
+	"github.com/paladin-devops/waypoint/internal/pkg/validationext"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // PipelineGraph returns the graph of steps for a pipeline. The graph

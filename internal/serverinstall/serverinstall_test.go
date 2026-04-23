@@ -3,7 +3,7 @@ package serverinstall
 import (
 	"testing"
 
-	"github.com/hashicorp/waypoint/internal/installutil"
+	"github.com/paladin-devops/waypoint/internal/installutil"
 )
 
 func TestDeriveDefaultODRImage(t *testing.T) {

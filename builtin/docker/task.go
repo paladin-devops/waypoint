@@ -19,14 +19,14 @@ import (
 	"github.com/docker/docker/pkg/stdcopy"
 	goUnits "github.com/docker/go-units"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
-	"github.com/hashicorp/waypoint-plugin-sdk/docs"
 	"github.com/oklog/ulid/v2"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/docs"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	wpdockerclient "github.com/hashicorp/waypoint/builtin/docker/client"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	wpdockerclient "github.com/paladin-devops/waypoint/builtin/docker/client"
 )
 
 // TaskLauncher uses `docker build` to build a Docker iamge.

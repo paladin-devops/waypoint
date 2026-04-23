@@ -5,7 +5,7 @@ package mocks
 import (
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/hashicorp/waypoint/pkg/server/gen"
+	"github.com/paladin-devops/waypoint/pkg/server/gen"
 
 	"github.com/hashicorp/go-memdb"
 

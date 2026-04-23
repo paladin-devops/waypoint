@@ -8,11 +8,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hashicorp/waypoint/pkg/server/gen/mocks"
+	"github.com/paladin-devops/waypoint/pkg/server/gen/mocks"
 	"github.com/stretchr/testify/require"
 	pbstatus "google.golang.org/genproto/googleapis/rpc/status"
 
-	pb "github.com/hashicorp/waypoint/pkg/server/gen"
+	pb "github.com/paladin-devops/waypoint/pkg/server/gen"
 )
 
 // For a note about the magic value 445DHu, see exec_test.go

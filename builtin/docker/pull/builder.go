@@ -5,6 +5,9 @@ import (
 	"context"
 	"encoding/base64"
 	"encoding/json"
+	"os"
+	"os/exec"
+
 	"github.com/docker/cli/cli/config"
 	"github.com/docker/distribution/reference"
 	"github.com/docker/docker/api/types"
@@ -13,20 +16,18 @@ import (
 	"github.com/docker/docker/registry"
 	"github.com/hashicorp/go-argmapper"
 	"github.com/hashicorp/go-hclog"
-	"github.com/hashicorp/waypoint-plugin-sdk/component"
+	"github.com/paladin-devops/waypoint-plugin-sdk/component"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 	empty "google.golang.org/protobuf/types/known/emptypb"
-	"os"
-	"os/exec"
 
-	"github.com/hashicorp/waypoint-plugin-sdk/docs"
-	"github.com/hashicorp/waypoint-plugin-sdk/terminal"
-	"github.com/hashicorp/waypoint/builtin/docker"
-	wpdocker "github.com/hashicorp/waypoint/builtin/docker"
-	wpdockerclient "github.com/hashicorp/waypoint/builtin/docker/client"
-	"github.com/hashicorp/waypoint/internal/assets"
-	"github.com/hashicorp/waypoint/internal/pkg/epinject"
+	"github.com/paladin-devops/waypoint-plugin-sdk/docs"
+	"github.com/paladin-devops/waypoint-plugin-sdk/terminal"
+	"github.com/paladin-devops/waypoint/builtin/docker"
+	wpdocker "github.com/paladin-devops/waypoint/builtin/docker"
+	wpdockerclient "github.com/paladin-devops/waypoint/builtin/docker/client"
+	"github.com/paladin-devops/waypoint/internal/assets"
+	"github.com/paladin-devops/waypoint/internal/pkg/epinject"
 )
 
 // Builder uses `docker build` to build a Docker iamge.
